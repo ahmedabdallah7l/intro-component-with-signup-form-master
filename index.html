@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <div class="content-container">
+            <h1>Learn to code by watching others</h1>
+            <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+              but understanding how developers think is invaluable.</p>
+        </div>
+        <div class="form-container">
+          <a href="#" id="offer">Try it free 7 days then $20/mo. thereafter</a>
+           <form>
+             <div class="warnnning">
+              <input type="text" placeholder="First Name" id="firstName">
+              <p class="none First">First Name cannot be empty or invalid</p>
+              <img src="./images/icon-error.svg" class="error none First" alt="error">
+            </div>
+             <div class="warnnning">
+              <input type="text" placeholder="Last Name" id="lastName">
+              <p class="none last">Last Name cannot be empty or invalid</p>
+              <img src="./images/icon-error.svg" class="error none last" alt="error">
+            </div>
+             <div class="warnnning">
+              <input type="email" placeholder="Email Address" id="email">
+              <p class="none email">Email is not correct</p>
+              <img src="./images/icon-error.svg" class="error none email" alt="error">
+            </div>
+             <div class="warnnning">
+              <input type="password" placeholder="Password" id="passsword">
+              <p class="none  pass">Password cannot be empty or invalid</p>
+              <img src="./images/icon-error.svg" class="error none pass" alt="error">
+            </div>
+            <a href="#" id="submit">Claim your free trial</a>
+             <p>By clicking the button, you are agreeing to our <span> Terms and Services</span></p>
+           </form>
+        </div>
+    </main>
+  <!-- Learn to code by watching others
+
+  See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+  but understanding how developers think is invaluable. 
+
+  Try it free 7 days then $20/mo. thereafter
+
+  First Name 
+  Last Name 
+  Email Address
+  Password
+
+  Claim your free trial 
+
+  By clicking the button, you are agreeing to our Terms and Services
+   -->
+  <script src="./index.js"></script>
+</body>
+</html>
